@@ -24,6 +24,14 @@ Follow the "Quick Start" section and execute the simulation scripts as instructe
 ## Homework Instructions
 Please complete Part 1–2 as described in the [Google Slides](https://docs.google.com/presentation/d/13JcQC12pI8Wb9ZuaVV400HVZr9eUeZvf7gB7Le8FRV4/edit?usp=sharing).
 
+## How to run
+
+Follow the instruction of PhysGaussian, and then run the sample ficus video.
+
+For adjustment, just simply modify `config/ficus_config.json` to change the parameters.
+
+Simply run a python script to calculate PSNR by `from skimage.metrics import peak_signal_noise_ratio`.
+
 ## Adjustments and PSNR Change
 
 The baseline default values are: `n_grid=100`, `substep_dt=1e-4`, `grid_v_damping_scale=0.9999`, `softening=0.1`
